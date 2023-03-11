@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": true,
+        "targets": [
+          "last 2 Chrome versions"
+        ]
+      }
+    ],
+    "@babel/preset-react"
+  ]
+}
